@@ -27,12 +27,12 @@ users.push(tyler, cahlan, lenny)
 console.log('Tyler\'s information is ');
 //Console.log all of Tylers information
 
-  //code here
+console.log(tyler)
 
 console.log('Lenny\'s information is ');
 //Now console.log all of Lennys information
 
-  //code here
+console.log(lenny)
 
 
 //Now create another instance of User using your own information and then add that to your users array.
