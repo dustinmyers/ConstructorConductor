@@ -41,7 +41,7 @@ users.push(tyler, cahlan, dustin);
 
 //Create a questions Array which is going to hold all of our questions
 
-  //code here
+var questions = [];
 
 
 //Now, let's say we wanted to create a quiz about JavaScript. Create three instances of Question which contain the following data
@@ -50,12 +50,14 @@ users.push(tyler, cahlan, dustin);
 //title: "T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value"
 //Fill in the rest of the required data as you see appropriate.
 
-  //code here
+ var question1 = new Question('T/F: Inheritance is achieved in JavaScript through Prototypes?', ['T', 'F'], 'T', 7)
+ var question2 = new Question('T/F: JavaScript is just a scripting version of Java', ['T', 'F'], 'F', 2)
+ var question3 = new Question('T/F: In Javascript, == doesn\'t check \'type\' but just the value - where === checks type and value', ['T', 'F'], 'T', 6)
 
 
 //Now push all of your instances of Question into the questions Array
 
-  //code here
+questions.push(question1, question2, question3);
 
 console.log('My users Array and my questions arrray are ...');
 //Now loop console.log your users array and your questions array and verify that they're both holding the right data.
