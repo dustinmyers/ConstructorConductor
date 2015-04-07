@@ -17,9 +17,11 @@ var users = [];
 
 //Now create and push into your users array 3 seperate instances of User using the data from above in that exact order
 
-users.push(user('Tyler', 'tylermcginnis33@gmail.com', 'iLoveJS'));
-users.push(user('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags'));
-users.push(user('Tyler', 'lenny@theLenster.com', 'iLoveLentilSoup'));
+var tyler = new User('Tyler', 'tylermcginnis33@gmail.com', 'iLoveJS');
+var cahlan = new User('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags');
+var lenny = new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup');
+
+users.push(tyler, cahlan, lenny)
 
 
 console.log('Tyler\'s information is ');
