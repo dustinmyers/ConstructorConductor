@@ -15,17 +15,28 @@ var User = function(name, email, password, totalScore) {
 
 //Create a Question constructor that accepts title, answersArray, rightAnswer, and difficulty parameters
 
-  //code here
+var Question = function(title, answersArray, rightAnswer, difficulty) {
+	this.title = title;
+	this.answersArray = answersArray;
+	this.rightAnswer = rightAnswer;
+	this.difficulty = difficulty;
+}
 
 
 //Create a users Array which is going to hold all of our users.
 
-  //code here
+var users = [];  //code here
 
 
 //Let's say three people signed up for our service, create 3 instances of User and add each to the users Array
 
-  //code here
+var tyler = new User('Tyler', 'tm@gmail.com', 'lava', 0);
+var cahlan = new User('Cahlan', 'cs@gmail.com', 'carrots', 0);
+var dustin = new User('Dustin', 'dt@gmail.com', 'snow', 0); 
+
+users.push(tyler, cahlan, dustin);
+
+
 
 
 //Create a questions Array which is going to hold all of our questions
