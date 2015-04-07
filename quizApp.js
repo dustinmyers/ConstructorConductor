@@ -5,7 +5,12 @@
 
 //Create a User constructor that accepts name, email, password, and totalScore parameters and set them appropriatly
 
-  //code here
+var User = function(name, email, password, totalScore) {
+	this.name = name;
+	this.email = email;
+	this.password = password;
+	this.totalScore = totalScore;
+}
 
 
 //Create a Question constructor that accepts title, answersArray, rightAnswer, and difficulty parameters
