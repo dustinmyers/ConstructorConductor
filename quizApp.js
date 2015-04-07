@@ -62,5 +62,6 @@ questions.push(question1, question2, question3);
 console.log('My users Array and my questions arrray are ...');
 //Now loop console.log your users array and your questions array and verify that they're both holding the right data.
 
-  //code here
+console.log(users);
+console.log(questions);
 
